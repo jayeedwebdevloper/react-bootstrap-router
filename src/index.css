@@ -1,0 +1,17 @@
+.active {
+    text-underline-offset: 7px;
+    text-decoration: underline !important;
+}
+.nav-link:hover {
+    text-underline-offset: 7px;
+    text-decoration: underline !important;
+    color: rgba(0, 0, 0, 0.678);
+}
+header {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 0 5px #00000093;
+}
