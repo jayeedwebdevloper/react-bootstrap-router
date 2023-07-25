@@ -10,6 +10,7 @@ import UserDetails from './Body/Users/UserDetails'
 
 function App() {
   const controller = createBrowserRouter([
+    // iktu wait error solve kora hoyese akon just data ta ante hobe ok
     {
       path: '/',
       loader: async () => {
